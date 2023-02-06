@@ -1,0 +1,34 @@
+:root {
+    --primary-background: #5a1414;
+    --primary-color: silver;
+}
+
+body {
+    background-color: burlywood;
+    color: gold;
+    background-image: url(./assests/images-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 4em;
+}
+
+main {
+    background-color: var(--primary-background);
+    color: var(var(--primary-color));
+    border: 4px solid rgb(215, 145, 61);
+    border-radius: 15px;
+}
+
+header {
+    color: blanchedalmond;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.2em + 1.2vw);
+    border-bottom: 2px solid blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
